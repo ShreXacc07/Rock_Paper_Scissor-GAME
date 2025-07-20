@@ -41,7 +41,7 @@ let score = JSON.parse(localStorage.getItem('score')) || {
         {
           if(computerMove === 'rock'){
             result = 'Tie';
-          }else if(computerMove === 'paper'){
+          }else if(computerMove === 'Paper'){
             result = 'You Loose';
           }else if(computerMove === 'Scissor'){
              result = 'You win';
